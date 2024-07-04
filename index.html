@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="searchResult">
+            <button onclick="searchImages()">Search</button>
+        </div>
+        
+        <div class="animal" data-caption="monkey">
+            <img src="image/monkey.jpg" alt="monkey" width="400" height="400">
+            <h3>monkey</h3>
+        </div>
+        <div class="animal" data-caption="panda">
+            <img src="image/panda.jpg" alt="panda" width="400" height="400">
+            <h3>panda</h3>
+        </div>
+        <div class="animal" data-caption="tiger">
+            <img src="image/tiger.jpg" alt="tiger" width="400" height="400">
+            <h3>tiger</h3>
+        </div>
+        <div class="animal" data-caption="pig">
+            <img src="image/pig.jpg" alt="pig" width="400" height="400">
+            <h3>pig</h3>
+        </div>
+        <div id="searchResult"></div> 
+        <script src="script.js"></script>
+</body>
+</html>
